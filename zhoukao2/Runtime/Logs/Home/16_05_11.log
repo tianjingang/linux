@@ -1,0 +1,21 @@
+[ 2016-05-11T22:59:24+08:00 ] 127.0.0.1 /linux/zhoukao2/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012153s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.014465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014684s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\web\apache\htdocs\linux\zhoukao2\Apps\Home\Controller\IndexController.class.php 第 68 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000143s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000366s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053709s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053960s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.022017s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.022255s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010578s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010809s ]
+

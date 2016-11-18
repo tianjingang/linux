@@ -1,0 +1,23 @@
+<center>
+<form action="__URL__/shows/" method="post" enctype="multipart/form-data">
+    <table>
+        <volist name="list" id="val">
+       <!-- <tr>
+            <td><img src="__ROOT__/{$val.co_img}" alt="" width="60" height="50"/></td>
+            <td>{$val.co_name}</td>
+            <td>{$val.co_brief}</td>
+            <td>{$val.is_complate}</td>
+            <td>{$val.is_study}</td>
+        </tr>-->
+            <ul>
+                <li><img src="__ROOT__/{$val.co_img}" alt="" width="60" height="50" style=""/></li>
+                <li>{$val.co_name}</li>
+                <li>{$val.co_brief}</li>
+                <li>{$val.is_complate}</li>
+                <li>{$val.is_study}</li>
+            </ul>
+            </volist>
+    </table>
+</form>
+{$page}
+    </center>

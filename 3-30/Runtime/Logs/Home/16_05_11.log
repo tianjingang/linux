@@ -1,0 +1,92 @@
+[ 2016-05-11T22:54:23+08:00 ] 127.0.0.1 /linux/3-30/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004910s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.016129s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016215s ]
+SQL: SHOW COLUMNS FROM `ri30` [ RunTime:0.1714s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ri30` WHERE ( username like '%%' and sex like '%%' ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ri30` WHERE ( username like '%%' and sex like '%%' ) LIMIT 0,3   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000188s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.230398s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.230496s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.028565s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.028650s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008738s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008814s ]
+
+[ 2016-05-11T22:54:49+08:00 ] 127.0.0.1 /linux/3-30/index.php/Home/Index/index/search1/%E5%88%98%E7%BD%97%E5%BA%86/search2/%E7%94%B7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000575s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000594s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000672s ]
+SQL: SHOW COLUMNS FROM `ri30` [ RunTime:0.0461s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ri30` WHERE ( username like '%刘罗庆%' and sex like '%男%' ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ri30` WHERE ( username like '%刘罗庆%' and sex like '%男%' ) LIMIT 0,3   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000202s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011796s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011905s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000556s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000654s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000962s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001051s ]
+
+[ 2016-05-11T22:54:57+08:00 ] 127.0.0.1 /linux/3-30/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000792s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001008s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001176s ]
+SQL: SHOW COLUMNS FROM `ri30` [ RunTime:0.0672s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ri30` WHERE ( username like '%%' and sex like '%%' ) LIMIT 1   [ RunTime:0.0021s ]
+SQL: SELECT * FROM `ri30` WHERE ( username like '%%' and sex like '%%' ) LIMIT 0,3   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000168s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000381s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026560s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026815s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001255s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001488s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001797s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002020s ]
+
+[ 2016-05-11T22:56:24+08:00 ] 127.0.0.1 /linux/3-30/index.php/Home/Index/index/search1/%E5%88%98%E7%BD%97%E5%BA%86/search2/%E7%94%B7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000351s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000747s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000816s ]
+SQL: SHOW COLUMNS FROM `ri30` [ RunTime:0.0354s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ri30` WHERE ( username like '%刘罗庆%' and sex like '%男%' ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ri30` WHERE ( username like '%刘罗庆%' and sex like '%男%' ) LIMIT 0,3   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000251s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017398s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017615s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000773s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000877s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001422s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001576s ]
+

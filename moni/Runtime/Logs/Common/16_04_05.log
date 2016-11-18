@@ -1,0 +1,24 @@
+[ 2016-04-05T11:47:58+08:00 ] 127.0.0.1 /linux/yuemo/index.php/linux/yuemo/index.php/Home/Index/add.html.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000481s ]
+ERR: 无法加载模块:Linux
+
+[ 2016-04-05T11:48:12+08:00 ] 127.0.0.1 /linux/yuemo/index.php/linux/yuemo/index.php/Home/Index/add.html.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000567s ]
+ERR: 无法加载模块:Linux
+
+[ 2016-04-05T11:49:04+08:00 ] 127.0.0.1 /linux/yuemo/index.php/linux/yuemo/index.php/Home/Index/add.html.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000622s ]
+ERR: 无法加载模块:Linux
+
+[ 2016-04-05T11:50:41+08:00 ] 127.0.0.1 /linux/yuemo/index.php/linux/yuemo/index.php/Home/Index/add.html.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000394s ]
+ERR: 无法加载模块:Linux
+

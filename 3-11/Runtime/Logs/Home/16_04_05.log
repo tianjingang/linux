@@ -1,0 +1,186 @@
+[ 2016-04-05T08:50:19+08:00 ] 127.0.0.1 /linux/3-11/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000479s ]
+
+[ 2016-04-05T08:50:28+08:00 ] 127.0.0.1 /linux/3-11/index.php/Home/Index/add/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000398s ]
+
+[ 2016-04-05T08:50:29+08:00 ] 127.0.0.1 /linux/3-11/index.php/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000481s ]
+
+[ 2016-04-05T08:50:37+08:00 ] 127.0.0.1 /linux/3-11/index.php/Home/Login/check_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+
+[ 2016-04-05T08:50:39+08:00 ] 127.0.0.1 /linux/3-11/index.php/Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000679s ]
+ERR: 模板不存在:./Apps/Home/View/Index/login.html
+
+[ 2016-04-05T08:50:46+08:00 ] 127.0.0.1 /linux/3-11/index.php/Home/Login/check_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000795s ]
+
+[ 2016-04-05T08:50:48+08:00 ] 127.0.0.1 /linux/3-11/index.php/Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000477s ]
+ERR: 模板不存在:./Apps/Home/View/Index/login.html
+
+[ 2016-04-05T08:51:45+08:00 ] 127.0.0.1 /linux/3-11/index.php/Home/Login/check_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000609s ]
+
+[ 2016-04-05T08:51:47+08:00 ] 127.0.0.1 /linux/3-11/index.php/Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000595s ]
+ERR: 模板不存在:./Apps/Home/View/Index/login.html
+
+[ 2016-04-05T08:54:52+08:00 ] 127.0.0.1 /linux/3-11/index.php/Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000445s ]
+ERR: 模板不存在:./Apps/Home/View/Index/login.html
+
+[ 2016-04-05T08:54:53+08:00 ] 127.0.0.1 /linux/3-11/index.php/Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+ERR: 模板不存在:./Apps/Home/View/Index/login.html
+
+[ 2016-04-05T08:54:54+08:00 ] 127.0.0.1 /linux/3-11/index.php/Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000342s ]
+ERR: 模板不存在:./Apps/Home/View/Index/login.html
+
+[ 2016-04-05T08:54:59+08:00 ] 127.0.0.1 /linux/3-11/index.php/Home/Login/check_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000567s ]
+
+[ 2016-04-05T08:55:02+08:00 ] 127.0.0.1 /linux/3-11/index.php/Home/Index/shows.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+
+[ 2016-04-05T08:55:08+08:00 ] 127.0.0.1 /linux/3-11/index.php/Home/Index/shows/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+
+[ 2016-04-05T08:55:12+08:00 ] 127.0.0.1 /linux/3-11/index.php/Home/Index/shows/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000751s ]
+
+[ 2016-04-05T09:07:18+08:00 ] 127.0.0.1 /linux/3-11/index.php/Home/Index/shows/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000441s ]
+
+[ 2016-04-05T09:07:19+08:00 ] 127.0.0.1 /linux/3-11/index.php/Home/Index/shows/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+
+[ 2016-04-05T09:07:20+08:00 ] 127.0.0.1 /linux/3-11/index.php/Home/Index/shows/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000393s ]
+
+[ 2016-04-05T09:07:21+08:00 ] 127.0.0.1 /linux/3-11/index.php/Home/Index/shows/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+
+[ 2016-04-05T09:07:21+08:00 ] 127.0.0.1 /linux/3-11/index.php/Home/Index/shows/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000433s ]
+
+[ 2016-04-05T09:07:26+08:00 ] 127.0.0.1 /linux/3-11/index.php/Home/Index/shows/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000574s ]
+
+[ 2016-04-05T10:26:30+08:00 ] 127.0.0.1 /linux/3-11/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000890s ]
+
+[ 2016-04-05T10:26:39+08:00 ] 127.0.0.1 /linux/3-11/index.php/Home/Index/add/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000481s ]
+
+[ 2016-04-05T10:26:40+08:00 ] 127.0.0.1 /linux/3-11/index.php/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+
+[ 2016-04-05T10:30:42+08:00 ] 127.0.0.1 /linux/3-11/index.php/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000885s ]
+
+[ 2016-04-05T11:09:47+08:00 ] 127.0.0.1 /linux/3-11/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+
+[ 2016-04-05T11:09:53+08:00 ] 127.0.0.1 /linux/3-11/index.php/Home/Index/add/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000437s ]
+
+[ 2016-04-05T11:09:54+08:00 ] 127.0.0.1 /linux/3-11/index.php/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000663s ]
+
+[ 2016-04-05T11:10:01+08:00 ] 127.0.0.1 /linux/3-11/index.php/Home/Login/check_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000544s ]
+
+[ 2016-04-05T11:10:07+08:00 ] 127.0.0.1 /linux/3-11/index.php/Home/Login/check_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000562s ]
+
+[ 2016-04-05T11:10:23+08:00 ] 127.0.0.1 /linux/3-11/index.php/Home/Login/check_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000407s ]
+
+[ 2016-04-05T11:13:09+08:00 ] 127.0.0.1 /linux/3-11/index.php/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000443s ]
+
+[ 2016-04-05T11:13:10+08:00 ] 127.0.0.1 /linux/3-11/index.php/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000476s ]
+
+[ 2016-04-05T11:13:10+08:00 ] 127.0.0.1 /linux/3-11/index.php/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000744s ]
+
+[ 2016-04-05T11:13:11+08:00 ] 127.0.0.1 /linux/3-11/index.php/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001025s ]
+

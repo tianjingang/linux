@@ -1,0 +1,15 @@
+[ 2016-05-11T22:57:07+08:00 ] 127.0.0.1 /linux/zhoukao1/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000740s ]
+
+[ 2016-05-11T22:57:22+08:00 ] 127.0.0.1 /linux/zhoukao1/index.php/Home/Index/add/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000443s ]
+
+[ 2016-05-11T22:57:23+08:00 ] 127.0.0.1 /linux/zhoukao1/index.php/Home/Index/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000875s ]
+

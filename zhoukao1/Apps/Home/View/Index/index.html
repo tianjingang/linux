@@ -1,0 +1,33 @@
+<center>
+<form action="__URL__/add/" method="post">
+    <h3>题目管理</h3>
+    <table border="1">
+        <tr>
+            <td>题目名称</td>
+            <td><input type="text" name="timu_name"/></td>
+        </tr>
+        <tr>
+            <td>题库名称</td>
+            <td>
+                <select name="tiku_name">
+                    <volist name="res" id="v">
+                    <option value="{$v.tiku_id}">{$v.tiku_name}</option>
+                    </volist>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>答案</td>
+            <td><input type="text" name="timu_answer"/></td>
+        </tr>
+        <tr>
+            <td>添加人</td>
+            <td><input type="text" name="timu_man"/></td>
+        </tr>
+        <tr>
+            <td><input type="submit" value="添加"/></td>
+            <td></td>
+        </tr>
+    </table>
+</form>
+    </center>

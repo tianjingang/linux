@@ -1,0 +1,27 @@
+<center>
+<form action="__URL__/shows/" method="post" enctype="multipart/form-data">
+    <table>
+        <tr>
+        <volist name="list" id="val" key='key'>
+            <td width="250" height="200">
+					<img src="__ROOT__{$val.co_img}" alt="" width="200" height="150"> <br>
+					{$val.co_id} <a href="__URL__/show/co_name/{$val.co_name}">{$val.co_name}</a> <br>
+					{$val.co_brief} <br>
+					{$val.is_complete} &nbsp;&nbsp;&nbsp;&nbsp;{$val.co_man}人学习 <br>
+					<a href="__URL__/del/id/{$val.co_id}">删除</a> <a href="__URL__/update_one/id/{$val.co_id}">修改</a> <a href="__URL__/adds/id/{$val.co_id}">添加章节</a>
+				</td>
+			<if condition="($key+1)%4 eq 1">
+			</tr>
+			</if>
+            <!-- <ul>
+                <li><img src="__ROOT__/{$val.co_img}" alt="" width="60" height="50" style=""/></li>
+                <li>{$val.co_name}</li>
+                <li>{$val.co_brief}</li>
+                <li>{$val.is_complate}</li>
+                <li>{$val.is_study}</li>
+            </ul>-->
+            </volist>
+    </table>
+</form>
+{$page}
+    </center>

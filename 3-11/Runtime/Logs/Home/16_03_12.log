@@ -1,0 +1,192 @@
+[ 2016-03-12T07:51:04+08:00 ] 127.0.0.1 /linux/3-11/index.php/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000699s ]
+
+[ 2016-03-12T07:51:06+08:00 ] 127.0.0.1 /linux/3-11/index.php/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000412s ]
+
+[ 2016-03-12T07:51:10+08:00 ] 127.0.0.1 /linux/3-11/index.php/Home/Login/login_check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+ERR: 非法操作:login_check
+
+[ 2016-03-12T07:53:16+08:00 ] 127.0.0.1 /linux/3-11/index.php/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000856s ]
+
+[ 2016-03-12T07:53:16+08:00 ] 127.0.0.1 /linux/3-11/index.php/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000359s ]
+
+[ 2016-03-12T07:53:19+08:00 ] 127.0.0.1 /linux/3-11/index.php/Home/Login/login_check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000657s ]
+ERR: 非法操作:login_check
+
+[ 2016-03-12T07:54:02+08:00 ] 127.0.0.1 /linux/3-11/index.php/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000614s ]
+
+[ 2016-03-12T07:54:03+08:00 ] 127.0.0.1 /linux/3-11/index.php/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
+
+[ 2016-03-12T07:54:06+08:00 ] 127.0.0.1 /linux/3-11/index.php/Home/Login/login_check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000792s ]
+ERR: 非法操作:login_check
+
+[ 2016-03-12T07:55:24+08:00 ] 127.0.0.1 /linux/3-11/index.php/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000733s ]
+
+[ 2016-03-12T07:55:28+08:00 ] 127.0.0.1 /linux/3-11/index.php/Home/Login/login_check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000678s ]
+ERR: 非法操作:login_check
+
+[ 2016-03-12T07:56:42+08:00 ] 127.0.0.1 /linux/3-11/index.php/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000635s ]
+
+[ 2016-03-12T07:56:43+08:00 ] 127.0.0.1 /linux/3-11/index.php/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000401s ]
+
+[ 2016-03-12T07:56:45+08:00 ] 127.0.0.1 /linux/3-11/index.php/Home/Login/login_check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000477s ]
+ERR: 非法操作:login_check
+
+[ 2016-03-12T08:03:04+08:00 ] 127.0.0.1 /linux/3-11/index.php/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000743s ]
+
+[ 2016-03-12T08:03:24+08:00 ] 127.0.0.1 /linux/3-11/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000558s ]
+
+[ 2016-03-12T08:03:26+08:00 ] 127.0.0.1 /linux/3-11/index.php/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000662s ]
+
+[ 2016-03-12T08:04:49+08:00 ] 127.0.0.1 /linux/3-11/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+ERR: 无法加载控制器:Index
+
+[ 2016-03-12T08:06:02+08:00 ] 127.0.0.1 /linux/3-11/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000410s ]
+ERR: 无法加载控制器:Index
+
+[ 2016-03-12T08:08:20+08:00 ] 127.0.0.1 /linux/3-11/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000419s ]
+ERR: 无法加载控制器:Index
+
+[ 2016-03-12T08:08:22+08:00 ] 127.0.0.1 /linux/3-11/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000611s ]
+ERR: 无法加载控制器:Index
+
+[ 2016-03-12T08:13:03+08:00 ] 127.0.0.1 /linux/3-11/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000424s ]
+ERR: 无法加载控制器:Index
+
+[ 2016-03-12T08:13:05+08:00 ] 127.0.0.1 /linux/3-11/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000529s ]
+ERR: 无法加载控制器:Index
+
+[ 2016-03-12T08:13:07+08:00 ] 127.0.0.1 /linux/3-11/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000362s ]
+ERR: 无法加载控制器:Index
+
+[ 2016-03-12T08:16:10+08:00 ] 127.0.0.1 /linux/3-11/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000456s ]
+ERR: 无法加载控制器:Index
+
+[ 2016-03-12T08:16:12+08:00 ] 127.0.0.1 /linux/3-11/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000560s ]
+ERR: 无法加载控制器:Index
+
+[ 2016-03-12T08:16:14+08:00 ] 127.0.0.1 /linux/3-11/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+ERR: 无法加载控制器:Index
+
+[ 2016-03-12T08:17:38+08:00 ] 127.0.0.1 /linux/3-11/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000621s ]
+ERR: 无法加载控制器:Index
+
+[ 2016-03-12T08:17:54+08:00 ] 127.0.0.1 /linux/3-11/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+ERR: 无法加载控制器:Index
+
+[ 2016-03-12T08:19:04+08:00 ] 127.0.0.1 /linux/3-11/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000433s ]
+ERR: 无法加载控制器:Index
+
+[ 2016-03-12T08:19:52+08:00 ] 127.0.0.1 /linux/3-11/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000583s ]
+ERR: 无法加载控制器:Index
+
+[ 2016-03-12T08:19:55+08:00 ] 127.0.0.1 /linux/3-11/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000605s ]
+ERR: 无法加载控制器:Index
+
+[ 2016-03-12T08:21:20+08:00 ] 127.0.0.1 /linux/3-11/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000676s ]
+ERR: 无法加载控制器:Index
+
+[ 2016-03-12T08:28:13+08:00 ] 127.0.0.1 /linux/3-11/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000399s ]
+ERR: 无法加载控制器:Index
+

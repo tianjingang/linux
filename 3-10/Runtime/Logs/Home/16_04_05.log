@@ -1,0 +1,25 @@
+[ 2016-04-05T09:16:51+08:00 ] 127.0.0.1 /linux/3-10/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000633s ]
+
+[ 2016-04-05T09:16:58+08:00 ] 127.0.0.1 /linux/3-10/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000372s ]
+
+[ 2016-04-05T09:17:13+08:00 ] 127.0.0.1 /linux/3-10/index.php/Home/Index/add/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000752s ]
+
+[ 2016-04-05T09:17:14+08:00 ] 127.0.0.1 /linux/3-10/index.php/Home/Index/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000505s ]
+
+[ 2016-04-05T09:17:37+08:00 ] 127.0.0.1 /linux/3-10/index.php/Home/Index/show.html?search=%E4%BC%8A%E5%88%A9&search1=%E4%B8%8A%E6%9E%B6%E4%B8%AD
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000486s ]
+

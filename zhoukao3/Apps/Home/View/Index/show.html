@@ -1,0 +1,48 @@
+
+<center>
+    <div id="div1">
+        <!-- <input type="search" name="search1" value="{$search1}"/>
+        <input type="search" name="search2" value="{$search2}"/>
+        <button onclick="search()">搜索</button>-->
+        <input type="search" name="search1" value="{$search1}" placeholder="请输入文章标题关键字"/>
+             <input type="search" name="search2" value="{$search2}" placeholder="请输入文章来源关键字"/>
+             <button onclick="search()">搜索</button>
+         <table border="1">
+         <tr>
+             <td>文章ID</td>
+             <td>文章标题</td>
+             <td>文章来源</td>
+             <td>时间</td>
+             <td>操作</td>
+         </tr>
+     <volist name="arr" id="val">
+         <tr>
+             <td>{$val.id}</td>
+             <td>{$val.title}</td>
+             <td>{$val.source}</td>
+             <td>{$val.time}</td>
+             <td>
+                 <a href="__URL__/del/id/{$val.id}">删除</a>
+                 <a href="#">编辑</a>
+                 </a>
+             </td>
+         </tr>
+     </volist>
+     </table>
+     {$show}
+         </div>
+ </center>
+ <script>
+     function search(){
+         var search1 = document.getElementsByName('search1')[0].value;
+         var search2 = document.getElementsByName('search2')[0].value;
+         var ajax = new XMLHttpRequest();
+         ajax.open('get',"__URL__/show/search1/"+search1+'/search2/'+search2);
+         ajax.send();
+         ajax.onreadystatechange = function () {
+             if(ajax.readyState == 4&& ajax.status == 200){
+                 document.getElementById('div1').innerHTML = ajax.responseText;
+             }
+         }
+     }
+ </script>

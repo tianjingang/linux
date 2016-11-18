@@ -1,0 +1,42 @@
+<center>
+    <table border="1">
+            <tr>
+                <td><input type="checkbox" name="run"/></td>
+                <td>排序</td>
+                <td>学生姓名</td>
+                <td>学生班级</td>
+                <td>原因</td>
+                <td>申请人</td>
+                <td>分数</td>
+                <td>类型</td>
+                <td>综合积分</td>
+                <td>状态</td>
+                <td>操作</td>
+            </tr>
+        <volist name="arr" id="val">
+            <tr>
+                <td><input type="checkbox" name="box"/></td>
+                <td>{$val.u_id}</td>
+                <td>{$val.m_username}</td>
+                <td>{$val.m_class}</td>
+                <td>{$val.m_why}</td>
+                <td>{$val.m_user}</td>
+                <td>{$val.m_score}</td>
+                <td>{$val.m_type}</td>
+                <td>{$val.m_sum}</td>
+                <td>
+                    <if condition="$val.m_statue eq 0 ">保存</if>
+                    <if condition="$val.m_statue eq 1 ">通过</if>
+                    <if condition="$val.m_statue eq 2">拒绝</if>
+                </td>
+                <td>
+                    <if condition="$val.m_statue eq 0">
+                        <a href="__URL__/update/id/{$val.u_id}">通过</a>
+                        <a href="__URL__/update1/id/{$val.u_id}">拒绝</a>
+                        <else />修改成功</if>
+                </td>
+            </tr>
+        </volist>
+        </table>
+    </form>
+</center>

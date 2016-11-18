@@ -1,0 +1,106 @@
+<center>
+<form>
+    <div id="div1">
+    <table border="1">
+        <tr>
+            <td><input type="checkbox" name="run"/></td>
+            <td>操作</td>
+            <td>序列</td>
+            <td>发布时间</td>
+            <td>房源简介</td>
+            <td>房源类型</td>
+            <td>发布天数</td>
+            <td>房源简介</td>
+        </tr>
+        <volist name="arr" id="val">
+        <tr>
+            <td><input type="checkbox" name="box" value="{$val.id}"/></td>
+           <!-- <td><a href="javascript:void(0)" onclick="del({$page},{$val.id})">删除</a></td>-->
+            <td><a href="__URL__/del/id/{$val.id}">删除</a></td>
+            <td>{$val.id}</td>
+            <td>{$val.n_time}</td>
+            <td>{$val.n_self}</td>
+            <td>{$val.n_type}</td>
+            <td>{$val.n_day}</td>
+            <td>{$val.n_self}</td>
+        </tr>
+        </volist>
+    </table>
+      <!--  <a href="javascript:void(0)" onclick="dele()">批量删除</a>
+        <a href="javascript:void(0)" onclick="page(1)">首页</a>
+        <a href="javascript:void(0)" onclick="page({$page}-1)">上一页</a>
+        <a href="javascript:void(0)" onclick="page({$page}+1)">下一页</a>
+        <a href="javascript:void(0)" onclick="page({$page_sum})">尾页</a>
+-->
+    </div>
+</form>
+    {$show}
+</center>
+<!--
+<script>
+    function del(){
+        var run=document.getElementsByName('run')[0].value;
+        var box=document.getElementsByName('box')[0].value;
+        var ajax=new XMLHttpRequest();
+        ajax.open('get','__URL__/del/box='+id);
+        ajax.send();
+        ajax.onreadystatechange=function(){
+            if(ajax.readyState==4&&ajax.status==200){
+                document.getElementById('box').innerHTML=ajax.responseText;
+            }
+        }
+    }
+</script>-->
+<!--
+<script>
+	function page(page)
+	{
+		var ajax=new XMLHttpRequest();
+		ajax.open('get','__URL__/index/page/'+page);
+		ajax.send();
+		ajax.onreadystatechange=function()
+		{
+			if(ajax.readyState==4&&ajax.status==200)
+			{
+				document.getElementById('div1').innerHTML=ajax.responseText;
+			}
+		}
+	}
+	function del(page,id)
+	{
+		var ajax=new XMLHttpRequest();
+		ajax.open('get','__URL__/index/page/'+page+'/id/'+id);
+		ajax.send();
+		ajax.onreadystatechange=function()
+		{
+			if(ajax.readyState==4&&ajax.status==200)
+			{
+				document.getElementById('div1').innerHTML=ajax.responseText;
+			}
+		}
+	}
+	function dele()
+	{
+		var box=document.getElementById('box');
+		var str='';
+		for(var i=0;i<box.length;i++)
+		{
+			if(box[i].checked==true)
+			{
+				var str=str+box[i].value+',';
+			}
+		}
+		str=str.substr(0,str.length-1);
+		var ajax=new XMLHttpRequest();
+		ajax.open('get','__URL__/index/page/'+page+'/id/'+str);
+		ajax.send();
+		ajax.onreadystatechange=function()
+		{
+			if(ajax.readyState==4&&ajax.status==200)
+			{
+				document.getElementById('div1').innerHTML=ajax.responseText;
+			}
+		}
+	}
+</script>
+-->

@@ -1,0 +1,19 @@
+<?php if (!defined('THINK_PATH')) exit();?><center>
+<form action="/index.php/Home/Index/add/" method="post">
+    <h1>文章添加</h1>
+    <table border="1">
+        <tr>
+            <td>文章标题</td>
+            <td><input type="text" name="title"/></td>
+        </tr>
+        <tr>
+            <td>文章来源</td>
+            <td><input type="text" name="source"/></td>
+        </tr>
+        <tr>
+            <td><input type="submit" value="提交"/></td>
+            <td></td>
+        </tr>
+    </table>
+</form>
+</center>

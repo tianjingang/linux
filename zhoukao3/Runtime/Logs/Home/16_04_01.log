@@ -1,0 +1,71 @@
+[ 2016-04-01T15:36:28+08:00 ] 127.0.0.1 /linux/zhoukao3/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000571s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000858s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000945s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\web\apache\htdocs\linux\zhoukao3\Apps\Home\Controller\IndexController.class.php 第 82 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000206s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031679s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031763s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006849s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006921s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015617s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015688s ]
+
+[ 2016-04-01T15:36:34+08:00 ] 127.0.0.1 /linux/zhoukao3/index.php/Home/Index/add/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000410s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000539s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000616s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\web\apache\htdocs\linux\zhoukao3\Apps\Home\Controller\IndexController.class.php 第 82 行.
+NOTIC: [2048] Declaration of Home\Model\NewModel::add() should be compatible with that of Think\Model::add() D:\web\apache\htdocs\linux\zhoukao3\Apps\Home\Model\NewModel.class.php 第 4 行.
+NOTIC: [2048] Declaration of Home\Model\NewModel::delete() should be compatible with that of Think\Model::delete() D:\web\apache\htdocs\linux\zhoukao3\Apps\Home\Model\NewModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `new` [ RunTime:0.0209s ]
+SQL: SHOW COLUMNS FROM `new` [ RunTime:0.0052s ]
+SQL: INSERT INTO `new` (`title`,`source`,`time`) VALUES ('菲律宾持续增兵南海，正向中野岛部署空军','新闻晨报','2016-04-01 15:36:34') [ RunTime:0.0209s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029531s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029616s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000273s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000718s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000798s ]
+
+[ 2016-04-01T15:36:35+08:00 ] 127.0.0.1 /linux/zhoukao3/index.php/Home/Index/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000786s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001229s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001370s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\web\apache\htdocs\linux\zhoukao3\Apps\Home\Controller\IndexController.class.php 第 82 行.
+SQL: SHOW COLUMNS FROM `new` [ RunTime:0.0047s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `new` WHERE ( title like '%%' and source like '%%' ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `new` WHERE ( title like '%%' and source like '%%' ) LIMIT 0,15   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000187s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021331s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021430s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000259s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000319s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000565s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000618s ]
+
